@@ -1,0 +1,16 @@
+{
+  "name": "harbour",
+  "version": "1.0.0",
+  "description": "it npm lib for quick and easy way to implament recurring solutions",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "validation",
+    "authentication",
+    "randomNumber"
+  ],
+  "author": "M.Yusuf",
+  "license": "ISC"
+}
