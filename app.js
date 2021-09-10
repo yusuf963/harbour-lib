@@ -54,12 +54,18 @@ function shadowbox(options){
        return false
      }
      } 
-  
-  
+
+  //convert console.log to print
+  const print = (param)=>{
+    let print
+    return print = console.log(param)
+  }
+
   //module.exports.shadowbox = shadowbox
   module.exports ={
   shadowbox,
   randomNumber,
   validatePassword,
-  validateEmail
+  validateEmail,
+  print
   }

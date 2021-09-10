@@ -35,3 +35,10 @@ shadowbox({
 bool
 string
 ```
+
+**use print instead of console.log**<br>
+It's much easier to use the key word print instead of console.log,to speedup building your logic and keep the coding flow in speed, howerver here is how you can use it
+```
+const {print} = require('harboury')
+print('print this in terminal')
+ ```
