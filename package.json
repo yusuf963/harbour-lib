@@ -6,11 +6,19 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yusuf963/harbour-lib.git"
+  },
   "keywords": [
     "validation",
     "authentication",
     "randomNumber"
   ],
   "author": "M.Yusuf",
-  "license": "ISC"
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/yusuf963/harbour-lib/issues"
+  },
+  "homepage": "https://github.com/yusuf963/harbour-lib#readme"
 }
