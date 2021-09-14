@@ -42,3 +42,6 @@ It's much easier to use the key word print instead of console.log,to speedup bui
 const {print} = require('harboury')
 print('print this in terminal')
  ```
+
+ isEven method
+ isRoundedEven
