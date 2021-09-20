@@ -67,6 +67,13 @@ const isRoundedEven = (value) => {
   else return false;
 };
 
+// find the largest number in Array
+const LargestNum = (numbers) => {
+  const sortedArr = numbers.sort(function (a, b) {  return a - b;  })
+  const largestNum = sortedArr[sortedArr.length -1]
+  if (largestNum) return largestNum
+  else return 0
+};
 //module.exports.shadowbox = shadowbox
 module.exports = {
   shadowbox,
@@ -76,4 +83,5 @@ module.exports = {
   print,
   isEven,
   isRoundedEven,
+  LargestNum
 };
