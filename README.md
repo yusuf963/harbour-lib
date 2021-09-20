@@ -45,3 +45,5 @@ print('print this in terminal')
 
  isEven method
  isRoundedEven
+ 
+ **Find and return the largest number in array**<br>
