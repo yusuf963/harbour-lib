@@ -74,6 +74,9 @@ const LargestNum = (numbers) => {
   if (largestNum) return largestNum
   else return 0
 };
+const isNumeric = (n) =>{
+    return !isNaN(parseFloat(n)) && isFinite(n)
+}
 //module.exports.shadowbox = shadowbox
 module.exports = {
   shadowbox,
@@ -83,5 +86,6 @@ module.exports = {
   print,
   isEven,
   isRoundedEven,
-  LargestNum
+  LargestNum,
+  isNumeric
 };
