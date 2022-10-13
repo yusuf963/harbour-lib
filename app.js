@@ -77,6 +77,8 @@ const LargestNum = (numbers) => {
 const isNumeric = (n) =>{
     return !isNaN(parseFloat(n)) && isFinite(n)
 }
+const sleep = (time: number) =>
+  new Promise(resolve => setTimeout(resolve, time));
 //module.exports.shadowbox = shadowbox
 module.exports = {
   shadowbox,
@@ -87,5 +89,6 @@ module.exports = {
   isEven,
   isRoundedEven,
   LargestNum,
-  isNumeric
+  isNumeric,
+  sleep
 };
